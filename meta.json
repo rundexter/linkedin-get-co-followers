@@ -4,23 +4,38 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Company ID"
+        },
+        {
+            "id": "geos",
+            "title":"Geos"
+        },
+        {
+            "id": "companySizes",
+            "title":"Size"
+        },
+        {
+            "id": "jobFunc",
+            "title":"Job"
+        },
+        {
+            "id": "industries",
+            "title":"Industries"
+        },
+        {
+            "id": "seniorities",
+            "title":"Seniorities"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "followers",
+            "title":"Followers"
         }
-      */
     ],
+    "icon": "linkedin",
     "title": "LinkedIn Get Company Followers" /* Required.A display name for the module */
 }
