@@ -36,6 +36,12 @@
             "title":"Followers"
         }
     ],
+    "providers": [{
+        "name": "linkedin",
+        "scopes": [
+            "rw_company_admin"
+        ]
+    }],
     "icon": "linkedin",
     "title": "LinkedIn Get Company Followers" /* Required.A display name for the module */
 }
